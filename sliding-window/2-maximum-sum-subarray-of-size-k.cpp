@@ -10,7 +10,6 @@ public:
         int maxSum = 0;
         int wSum = 0;
         int wStart = 0;
-        // TODO: Write your code here
         for (int wEnd = 0; wEnd < arr.size(); wEnd++) {
             wSum += arr[wEnd];
             if (wEnd >= k - 1) {

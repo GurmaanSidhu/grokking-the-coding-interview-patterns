@@ -27,7 +27,6 @@ public:
             }
             maxLength = max(maxLength, we - ws + 1);
         }
-        // TODO: Write your code here
         return maxLength;
     }
 };

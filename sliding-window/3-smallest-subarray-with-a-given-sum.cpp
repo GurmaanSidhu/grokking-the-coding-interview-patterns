@@ -10,7 +10,6 @@ using namespace std;
 class MinSizeSubArraySum {
 public:
     static int findMinSubArray(int S, const vector<int>& arr) {
-        // TODO: Write your code here
         int wStart = 0, minLen = numeric_limits<int>::max(), wSum = 0; // numeric_minits -> basically find the worst case, like nothing smaller than this, around 2.2 billion or something idk
         for (int wEnd = 0; wEnd < arr.size(); wEnd++) {
             wSum += arr[wEnd];
